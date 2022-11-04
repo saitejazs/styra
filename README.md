@@ -1,6 +1,6 @@
 
 
-#**Git integration with Styra DAS:**
+#Git integration with Styra DAS
 
 **Prerequisites:**
 
