@@ -1,29 +1,6 @@
-**MERN stack application:  **
 
-- Created a sample application using (reactJs, nodeJs, mongo) and pushed the code into Git repository. [**Git**](https://github.com/chandu849/cloudL): https://github.com/chandu849/cloudL
-- Created deployment & service files for each stack.
-- Run the Docker desktop application and start the minikube.
-- Git clone the repository into the local terminal and created all the yaml files by using kubectl command as below
 
-kubectl create -f mongodb-pod.yml
-
-kubectl create -f mongodb-service.yml
-
-kubectl create -f cloudl-server-service.yml
-
-kubectl create -f cloudl-server-deployment.yml
-
-To check the pods and services which are running in the cluster, run the following commands
-
-Kubectl get pods
-
-Kubectl get svc
-
-To see the output we need to port forward as below
-
-kubectl port-forward svc/cloudl-client-service 3000:80
-
-**Git integration with Styra DAS:**
+#**Git integration with Styra DAS:**
 
 **Prerequisites:**
 
